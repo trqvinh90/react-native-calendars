@@ -15,23 +15,24 @@ export default function styleConstructor(theme={}) {
     },
     base: {
       //borderWidth: 1,
-      width: 38,
+      width: 34,
       height: FILLER_HEIGHT,
       alignItems: 'center'
     },
     fillers: {
       position: 'absolute',
-      height: FILLER_HEIGHT,
+      height: 25,
       flexDirection: 'row',
       left: 0,
-      right: 0
+      right: 0,
+      top: 3,
     },
     leftFiller: {
-      height: FILLER_HEIGHT,
+      height: 25,
       flex: 1
     },
     rightFiller: {
-      height: FILLER_HEIGHT,
+      height: 25,
       flex: 1
     },
     text: {
