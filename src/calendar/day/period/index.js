@@ -156,7 +156,7 @@ class Day extends Component {
         };
         rightFillerStyle = {
           // backgroundColor: flags.startingDay.color
-          backgroundColor: flags.startingDay.fillColor
+          backgroundColor: flags.theme.fillColor
         };
         containerStyle.push({
           backgroundColor: flags.startingDay.color
@@ -167,7 +167,7 @@ class Day extends Component {
         };
         leftFillerStyle = {
           // backgroundColor: flags.endingDay.color
-          backgroundColor: flags.endingDay.fillColor
+          backgroundColor: flags.theme.fillColor
         };
         containerStyle.push({
           backgroundColor: flags.endingDay.color
